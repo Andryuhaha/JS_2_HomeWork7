@@ -1,0 +1,14 @@
+h3 {
+	overflow: hidden;
+	text-shadow: 0 0 tomato,
+		0 0 yellowgreen,
+		0 0 skyblue;
+	color: transparent;
+	transition: all 1s;
+}
+
+h3:hover {
+	text-shadow: -400px 0 tomato,
+		400px 0 yellowgreen,
+		0 0 skyblue;
+}
